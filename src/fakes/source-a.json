@@ -1,0 +1,51 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "John Doe",
+      "cpf": "123.123.123-12",
+      "endereco": {
+        "rua": "Rua Teste, 123",
+        "cidade": "São Paulo",
+        "estado": "SP"
+      },
+      "listaDividas": [
+        {
+          "divida": "cartao credito",
+          "valor": 1000
+        },
+        {
+          "divida": "financiamento carro",
+          "valor": 10000.5
+        },
+        {
+          "divida": "financiamento casa",
+          "valor": 25000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Zezinho",
+      "cpf": "111.222.333-12",
+      "endereco": {
+        "rua": "Rua Brasil, 123",
+        "cidade": "Blumenau",
+        "estado": "SC"
+      },
+      "listaDividas": [
+        {
+          "divida": "cartao credito",
+          "valor": 0
+        },
+        {
+          "divida": "financiamento casa",
+          "valor": 25000
+        }
+      ]
+    }
+  ],
+  "teste": {
+    "message": "heoolo"
+  }
+}
